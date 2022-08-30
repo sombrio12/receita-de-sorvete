@@ -8,11 +8,21 @@ h1 {
 }
 
 #banner {
-	
+	display: inline-block;
 	width: 250px;
 	height: 250px;
 }
+.pagina li{
+	display: inline-block;
+	text-align: center;
 
-.ent{
- display: inline-block
- f
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border: 10px solid #F4A460;
+	border-radius: 10px; /*/ ARREDENDAR A BORDA */
+	border-style: bold;
+
+} 
