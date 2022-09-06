@@ -1,18 +1,38 @@
-body{
-	background : #cccccc;
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
 }
-h1 {
-     text-align: center;
-     text-transform: uppercase;
-     color: ;
+#logo{
+	width: 40%;
 }
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
 
-#banner {
-	display: inline-block;
-	width: 250px;
-	height: 250px;
 }
-.pagina li{
+nav a{
+	text-transform: uppercase;
+	color: #00008B;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover{ /*/ MUDAR A COR QUANDO PASSA O MOUSE SOBRE O ELEMNTO */
+	color: 	#BC8F8F
+
+
+}
+.produtos li{
 	display: inline-block;
 	text-align: center;
 
@@ -25,4 +45,19 @@ h1 {
 	border-radius: 10px; /*/ ARREDENDAR A BORDA */
 	border-style: bold;
 
-} 
+	}
+	#banner{
+		width: 30px;
+		height: 30px;
+	}
+	.produtos li:hover{
+		border-color: #00BFFF;
+	}
+
+.produtos li:active{ /*/ MUDAR A COR QUANDO CLICADO */
+	border-color: #088C19;
+}
+.produtos li:hover h2{
+	text-transform: uppercase;
+	font-size: 40px;
+Footer
