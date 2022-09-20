@@ -1,62 +1,50 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title> Avaliação de pensamento computacional</title>
-		
-	<link rel="stylesheet" href="ent.css">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Formuário</title>
+	<link rel="stylesheet"  href="formulario.css">
+<form>
+<label for="nome">Nome e Sobrenome</label>
+<input type="text"id="nome">
 
-	</head>
-	<header>
-        <h1> Avaliação de pensamento computacional</h1>
-			<div  class= "caixa">
+<label for="email">Email</label>
+<input type="text" id="email">
 
-			<h1> <img id = "logo" src ="viktor.jpg"></h1>
-			
-		<nav>
-		<ul>
-			<li><a href="index.html"> home </a></li>
-			<li><a href="http://google.com">  conceitos </a></li>
-			<li><a href="http://google.com">  colaboração </a> </li>
-			</ul>
-		</nav>
-	</div>
-	</header>
-<main>
-	<ul class= "produtos">
+<label for="telefone">Telefone</label>
+<input type="text" id="telefone">
 
-		<li><h2> Algoritmo </h2>
-		<img id= "banner" src  = penso1.jpg>
-		<p>  é uma sequência de instruções bem definidas, 
-		<p> executa tarefas </p>
-		<p> usado para resolver problemas específicos</p>
-		</li>
+<label for="mensagem">Mensagem</label>
+<textarea cols="27" rows="2" id="mensagem"></textarea>
 
-		<li><h2>  decomposição </h2> 
-        <img id= "banner" src  = penso2.jpg>
-		<p> divide os problemas em partes menores  </p>
-		<p> facilitar a resolução </p>
-		<p>  desenvolvimento e gerenciamento </p>
-		</li>
+<p>Como prefere seu contato?</p>
+<h2>
+<label for="radio-email">Email</label>
+<input type="radio" name="contato" value="email" id="radio-email">
 
-		<li> <h2> abstração de dados </h2>
-		<img id= "banner" src  = penso3.jpg>
-		<p> esconder os detalhes de algo </p>
-		<p> deixar somente o essencial </p>
-		<p> reduzir a complexidade </p>
-		 </li>
+<label for="radio-telefone">Telefone</label>
+<input type="radio" name="contato" value="telefone" id="radio-telefone">
 
-	</ul>
+<label for="radio-whatsApp">WhatsApp</label>
+<input type="radio" name="contato" value="whatsApp" id="radio-whatsApp">
+
+<label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+<p> qual horario prefere ser atendido?</p>
+
+<select>
+	
+	<option> Manhã </option>
+	<option> Tarde </option>
+	<option> Noite </option>
+
+</select>
+
+</h2>
+<input type="submit" value="Enviar Formulário">
 
 
-</body>
-
-
-
-
-
-
-
-</body>
-</html>
+</form>
+</head>
+<body>
